@@ -1,0 +1,25 @@
+SUPERMERCADO UNIÃO — APP DE PEDIDOS COM PAGAMENTO NA ENTREGA
+
+O QUE ESTÁ INCLUÍDO
+- Loja responsiva instalável como PWA.
+- Busca de produtos, categorias e carrinho.
+- Cadastro de nome, WhatsApp, cidade e endereço de entrega.
+- Pagamento escolhido no recebimento: cartão de crédito, cartão de débito, dinheiro ou vale-refeição.
+- O pedido é enviado ao WhatsApp do Supermercado União para confirmação.
+- Backend Node.js/Express para catálogo compartilhado e gestão de produtos.
+
+IMPORTANTE ANTES DE PUBLICAR
+- O aplicativo não cobra pagamentos online; o cliente paga na entrega.
+- Confirme quais bandeiras de cartão e vale-refeição a loja aceita e se a maquininha está habilitada para elas.
+- Os preços atuais do catálogo são de demonstração e devem ser substituídos pelos preços reais.
+- A taxa de entrega e o total final devem ser confirmados pela loja com o cliente.
+- O pedido mínimo exibido é R$ 100,00. Altere esse valor se necessário.
+- Para operar com pedidos reais, configure hospedagem HTTPS, segurança administrativa e armazenamento persistente.
+
+INÍCIO LOCAL
+1. Instale Node.js 20 ou superior.
+2. Copie .env.example para .env e configure uma senha administrativa forte.
+3. Rode npm install e npm start.
+4. Abra o endereço local informado no terminal.
+
+A integração de checkout online do PagBank foi retirada do fluxo do cliente. O nome PagBank não é necessário para receber pedidos; a cobrança acontece na entrega, usando os meios aceitos pela loja.
